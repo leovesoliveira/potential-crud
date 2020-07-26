@@ -24,10 +24,10 @@ class DeveloperUpdateRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'string|required',
-            'gender' => 'string|required',
-            'hobby' => 'string|required',
-            'birthdate' => 'date|required',
+            'name' => 'string',
+            'gender' => 'string',
+            'hobby' => 'string',
+            'birthdate' => 'date',
         ];
     }
 }
